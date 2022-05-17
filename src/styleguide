@@ -1,0 +1,51 @@
+/* variables */
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --persian-green: 
+rgba(0, 184, 151, 1);
+  --caribbean-green: 
+rgba(0, 216, 177, 1);
+  --shark: 
+rgba(38, 38, 38, 1);
+  --boulder: 
+rgba(122, 122, 122, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 13px;
+  --font-size-xs: 22px;
+  --font-size-s: 28px;
+  --font-size-m: 30px;
+  --font-size-l: 40px;
+  --font-size-xl: 43px;
+  --font-size-xxl: 45px;
+
+  --font-family-fontawesome-regular: "FontAwesome-Regular";
+  --font-family-roboto: "Roboto";
+}
+
+
+
+.roboto-medium-white-43px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-style: normal;
+}
+.roboto-medium-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.fontawesome-regular-normal-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-fontawesome-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
